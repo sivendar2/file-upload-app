@@ -1,0 +1,136 @@
+.employee-data-container {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: #fcfcfc;
+}
+
+h2, h3 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.employee-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.employee-list th, .employee-list td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.employee-list th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #555;
+}
+
+.employee-list .no-data {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+}
+
+.actions button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.employee-form {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.employee-form .form-group {
+  margin-bottom: 15px;
+}
+
+.employee-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.employee-form input[type="text"] {
+  width: calc(100% - 22px); /* Adjust for padding and border */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.employee-form input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+.employee-form .form-actions {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.employee-form .save-btn,
+.employee-form .cancel-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.employee-form .save-btn {
+  background-color: #28a745;
+  color: white;
+  margin-right: 10px;
+}
+
+.employee-form .save-btn:hover {
+  background-color: #218838;
+}
+
+.employee-form .cancel-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.employee-form .cancel-btn:hover {
+  background-color: #5a6268;
+}
